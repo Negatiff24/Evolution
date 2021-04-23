@@ -1,0 +1,21 @@
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__link {
+	color: black;
+}
+
+@media screen and (max-width: 1023px) {
+	.nav.-hero {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.nav.-hero {
+		display: none;
+	}
+}
